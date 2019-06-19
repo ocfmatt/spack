@@ -12,8 +12,9 @@ class Nettle(AutotoolsPackage):
 
     homepage = "https://www.lysator.liu.se/~nisse/nettle/"
     url      = "https://ftpmirror.gnu.org/nettle/nettle-3.3.tar.gz"
+    git      = "https://github.com/gnutls/nettle.git"
 
-    version('3.4.1', sha256='f941cf1535cd5d1819be5ccae5babef01f6db611f9b5a777bae9c7604b8a92ad')
+    version('3.4.1', commit='f5a3a224bf00bef5669366d2ae23c2b2b13b8016')
     version('3.4',   'dc0f13028264992f58e67b4e8915f53d')
     version('3.3',   '10f969f78a463704ae73529978148dbe')
     version('3.2',   'afb15b4764ebf1b4e6d06c62bd4d29e4')
